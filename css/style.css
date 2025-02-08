@@ -5,6 +5,8 @@
 /* Box Model Hack */
 *{
   box-sizing: border-box;
+  background-color: rgb(10, 25, 47);
+  color:  rgb(245, 245, 245);
 }
 
 /******************************************
@@ -13,6 +15,20 @@
 img{
   display: block;
   margin: 0 auto;
+  height: 800px;
+  width: 800px;
+}
+footer{
+  display: flex;
+  justify-content: center;
+}
+h1,h2,h3{
+  text-align: center;
+}
+section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 
