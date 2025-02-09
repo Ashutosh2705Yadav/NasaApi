@@ -12,7 +12,17 @@
 /******************************************
 /* LAYOUT
 /*******************************************/
-img{
+
+
+h1,h2,h3{
+  text-align: center;
+}
+section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+img,iframe{
   display: block;
   margin: 0 auto;
   height: 800px;
@@ -22,15 +32,6 @@ footer{
   display: flex;
   justify-content: center;
 }
-h1,h2,h3{
-  text-align: center;
-}
-section{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 
 /******************************************
 /* ADDITIONAL STYLES
